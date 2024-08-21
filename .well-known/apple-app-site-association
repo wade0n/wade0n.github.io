@@ -4,7 +4,15 @@
         "details":[
             {
                 "appID":"SD2JN82784.com.applications.Squir-App",
-                "paths":["/apps/confirmation/*","/view-reservation/*","/email-notifications/appointment-confirmed/*","/email-notifications/appointment-rescheduled/*","/email-notifications/appointment-cancelled/*","/email-notifications/appointment-reminder/*","/email-notifications/appointment-updated/*","/booking/brands/*","/booking/book/*","/booking/book/*/barber/*/services","/barbershops/view-reservation/*","/booking/view-reservation/*"]
+                "paths":["/apps/confirmation/*","/view-reservation/*","/email-notifications/appointment-confirmed/*","/email-notifications/appointment-rescheduled/*","/email-notifications/appointment-cancelled/*","/email-notifications/appointment-reminder/*","/email-notifications/appointment-updated/*","/booking/brands/*","/booking/book/*","/booking/book/*/barber/*/services","/barbershops/view-reservation/*","/booking/view-reservation/*", "/campaign/*"]
+            },
+            {
+                "appID": "RG58NU83DL.com.getsquire.Squire-Commander",
+                "paths": [
+                    "/reset-password/*",
+                    "/app-login/*",
+                    "/barber/settings/payment-card",
+                ]
             }
         ]
     }
