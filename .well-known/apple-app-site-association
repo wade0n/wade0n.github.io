@@ -1,17 +1,43 @@
 {
-    "applinks":{
-        "apps":[],
-        "details":[
+    "applinks": {
+        "details": [
             {
-                "appID":"SD2JN82784.com.applications.Squir-App",
-                "paths":["/apps/confirmation/*","/view-reservation/*","/email-notifications/appointment-confirmed/*","/email-notifications/appointment-rescheduled/*","/email-notifications/appointment-cancelled/*","/email-notifications/appointment-reminder/*","/email-notifications/appointment-updated/*","/booking/brands/*","/booking/book/*","/booking/book/*/barber/*/services","/barbershops/view-reservation/*","/booking/view-reservation/*", "/campaign/*"]
-            },
-            {
-                "appID": "RG58NU83DL.com.getsquire.Squire-Commander",
-                "paths": [
-                    "/reset-password/*",
-                    "/app-login/*",
-                    "/barber/settings/payment-card",
+                "appIDs": [
+                    "SD2JN82784.com.applications.Squir-App",
+                    "SD2JN82784.com.getsquire.SQUIRE-Branded"
+                ],
+                "components": [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+                    },
+                    {
+                        "/": "/booking/brands/*",
+                        "exclude": true,
+                        "comment": "Brand booking links"
+                    },
+                    {
+                        "/": "/booking/book/*",
+                        "comment": "Shop booking links"
+                    },
+                    {
+                        "/": "/booking/book/*/barber/*/services",
+                        "exclude": true,
+                        "comment": "Barber booking links"
+                    },
+                    {
+                        "/": "/barbershops/view-reservation/*",
+                        "comment": "Appointment details links"
+                    },
+                    {
+                        "/": "/booking/view-reservation/*",
+                        "comment": "Appointment details links"
+                    },
+                    {
+                        "/": "/barbershops/campaign/*/sms",
+                        "comment": "SMS Campaign links"
+                    }
                 ]
             }
         ]
