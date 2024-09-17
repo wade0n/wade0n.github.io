@@ -22,7 +22,6 @@
                     },
                     {
                         "/": "/booking/book/*/barber/*/services",
-                        "exclude": true,
                         "comment": "Barber booking links"
                     },
                     {
@@ -34,8 +33,12 @@
                         "comment": "Appointment details links"
                     },
                     {
-                        "/": "/barbershops/campaign/*/sms",
+                        "/": "/campaign/*/sms",
                         "comment": "SMS Campaign links"
+                    },
+                    {
+                        "/": "/campaign/*/email",
+                        "comment": "Email Campaign links"
                     }
                 ]
             }
