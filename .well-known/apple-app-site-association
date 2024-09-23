@@ -33,7 +33,7 @@
                         "comment": "Appointment details links"
                     },
                     {
-                        "/": "/*/campaign/*/sms",
+                        "/": "*/campaign/*/sms",
                         "comment": "SMS Campaign links"
                     },
                     {
