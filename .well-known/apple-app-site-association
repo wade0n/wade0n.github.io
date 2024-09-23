@@ -33,11 +33,19 @@
                         "comment": "Appointment details links"
                     },
                     {
-                        "/": "*/campaign/*/sms",
+                        "/": "/campaign/*/sms",
                         "comment": "SMS Campaign links"
                     },
                     {
-                        "/": "*/campaign/*/email",
+                        "/": "/campaign/*/email",
+                        "comment": "Email Campaign links"
+                    },
+                    {
+                        "/": "/barbershops/campaign/*/sms",
+                        "comment": "SMS Campaign links"
+                    },
+                    {
+                        "/": "/barbershops/campaign/*/email",
                         "comment": "Email Campaign links"
                     }
                 ]
